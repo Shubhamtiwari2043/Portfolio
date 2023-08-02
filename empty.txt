@@ -1,0 +1,199 @@
+color combination---linear-gradient(rgb(37, 150, 190),rgb(92,244,240),rgb(37, 150, 190)),
+
+services
+<!-- <div>
+          <i class="fa-brands fa-dev"></i>
+          <h2>UI/UX</h2>
+          <p>What does text me mean? Text me is a common way to ask someone 
+            to send you a text message on their phone, 
+            often to catch up or make plans.</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store"></i>
+          <h2>App development</h2>
+          <p>What does text me mean? Text me is a common way to ask someone 
+            to send you a text message on their phone, 
+            often to catch up or make plans.</p>
+            <a href="#">Learn more</a>
+        </div> -->
+
+portfolio
+<div class="work">
+          <img src="images/work-1.png" alt="">
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p>What does please text me mean in English?What does text me mean? Text me is a common way to ask someone 
+              to send you a text message on their phone, 
+              often to catch up or make plans.</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+
+          </div>
+        </div>
+
+        <div class="work">
+          <img src="images/work-2.png" alt="">
+          <div class="layer">
+            <h3>Online App</h3>
+            <p>What does please text me mean in English?What does text me mean? Text me is a common way to ask someone 
+              to send you a text message on their phone, 
+              often to catch up or make plans.</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+
+          </div>
+        </div>
+button
+<!-- <a href="#" class="btn"> See More</a> -->
+
+
+full about section 
+<!-- About section -->
+  <!-- <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/wp-1.png" alt="">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-tittle">About Me</h1>
+          <p>I'm aspired to be an Front-end web Developer .</p>
+
+            <div class="tab-tittles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experince')" >Experince</p>
+              <p class="tab-links" onclick="opentab('education')" >Education</p>
+            </div>
+            
+            <div class="tab-contains active-tab" id="skills">
+              <ul>
+                <li><span>HTML&CSS</span><br> Web interfaces </li>
+                <li><span>Web Development </span><br> Designing Websites  </li>
+                <li><span>App Development </span><br> App Developer </li>
+              </ul>
+            </div><br>
+
+            <div class="tab-contains"id="experince">
+              <ul>
+                <li><span>Internship</span><br> At Datamatics </li>
+                
+              </ul>
+            </div>
+            <br>
+            <div class="tab-contains" id="education" >
+              <ul>
+                <li><span>Abmps</span><br> Web interfaces </li>
+                <li><span>bsjc </span><br> Designing Websites  </li>
+                <li><span>S K Somaiya  </span><br> App Developer </li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+
+  </div> -->
+  script code of about 
+  <script>
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontains= document.getElementsByClassName("tab-contains");
+
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+
+      for(tabcontain of tabcontains){
+        tabcontain.classList.remove("active-tab");
+      }
+
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+css about
+/* 
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;  
+}
+#about{
+    padding: 80px 0;
+    color: #abababab;
+}
+.about-col-2{
+    flex-basis: 60%;
+
+}
+.about-col-1{
+    flex-basis: 35%;
+}
+.about-col-1 img{
+    width: 100%;
+    border-radius: 15px;
+}
+.sub-tittle{
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+.tab-tittles{
+    display: flex;
+    margin: 20px 0 40px;
+
+}
+.tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+.tab-links::after{
+    content: '';
+    width: 100%;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+.tab-links.active-link::after{
+    width: 50%;
+}
+.tab-contains ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+.tab-contains ul li span{
+    color:#b54 ;
+    font-size: 14px;
+}
+.tab-contains{
+    display: none;
+
+}
+.tab-contains.active-tab{
+    display: block;
+    
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
